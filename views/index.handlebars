@@ -1,0 +1,83 @@
+
+ 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha512-U6K1YLIFUWcvuw5ucmMtT9HH4t0uz3M366qrF5y4vnyH6dgDzndlcGvH/Lz5k8NFh80SN95aJ5rqGZEdaQZ7ZQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css" integrity="sha512-+am5K7BRTV+gp0pLhviijcMf4SZCUS2ZMhExySUyQpyC7UQbxuAU99AGcu7iS3L/3KXJolQk5c+MehHezYKYdg==" crossorigin="anonymous" /> 
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+	<link rel="stylesheet" href="../../public/assets/css/style-notes.css">
+		<link rel="stylesheet" href="../../public/assets/css/style.css" type="text/css" />
+
+<div class="ui grid">
+ 
+<div class="three wide column"></div>
+<div class="ten wide column" id="questionsContainer" >
+   <h2>Hi {{dataValues.name}}!</h2>
+<div class="ui form" >
+  <div class="field">
+      <label>What goal would you like to set?</label>
+      <div class="ui selection dropdown">
+          <input type="hidden" name="goals" id="goals">
+          <i class="dropdown icon"></i>
+          <div class="default text">What goal would you like to set?</div>
+          <div class="menu">
+            {{#each goals}}
+              <div class="item" id="goal1" data-id="{{dataValues.id}}">{{dataValues.goalName}}</div>
+            {{/each}}
+          </div>
+      </div>
+  </div>
+
+ <div class="grouped fields">
+    <label for="days">How many times per week can you work on this goal?</label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="one" id="one" type="radio" name="days" tabindex="0" class="hidden" value=7 required>
+        <label for="one">Once A Week</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="two" id="two" type="radio" name="days" tabindex="0" class="hidden" value=3.5>
+        <label for="two" >Twice A Week</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="three" id="three" type="radio" name="days" tabindex="0" class="hidden" value=2.33>
+        <label for="three">Three Times A Week</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="four" id="four" type="radio" name="days" tabindex="0" class="hidden" value=1.75>
+        <label for="four">Four Times A Week</label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="five" id="five" type="radio" name="days" tabindex="0" class="hidden" value=1.4>
+        <label for="five">Five Times A Week</label>
+      </div>
+       <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="six" id="six" type="radio" name="days" tabindex="0" class="hidden" value=1.17>
+        <label for="six">Six Times A Week</label>
+      </div>
+       <div class="field">
+      <div class="ui radio checkbox">
+        <input data-id="seven" id="seven" type="radio" name="days" tabindex="0" class="hidden" value=1>
+        <label for="seven">Everyday</label>
+      </div>
+      </div> 
+    </div>
+<button id="submit" class="ui primary button">Submit</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="three wide column"></div>
+
+
+      <script>$(".ui.dropdown").dropdown()</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha512-U6K1YLIFUWcvuw5ucmMtT9HH4t0uz3M366qrF5y4vnyH6dgDzndlcGvH/Lz5k8NFh80SN95aJ5rqGZEdaQZ7ZQ==" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   	<script src="../../public/assets/js/firstlogin.js" async defer></script>

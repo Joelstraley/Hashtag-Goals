@@ -1,0 +1,81 @@
+body, html {
+    font-family: 'Lobster', cursive;
+    background-image: url("../goalsBackground-crop.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-color: #FEFCD5; 
+    height: 100vh;
+
+
+}
+
+#goalsHeader {
+    padding: 10px;
+    font-weight: bold;
+    font-family:  cursive;
+    color: #f19e04;
+    text-shadow: -2px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2px black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    padding-top: 20px;
+}
+    
+p {
+    text-align: center;
+}
+
+#alertDIV {
+    color: black;
+    font-size: small;
+    text-shadow: .5px .5px black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:  #f19e04;
+    text-shadow: 2px 1px black;
+    }
+
+#email-input {
+opacity: 0.9;
+}
+
+#password-input {
+opacity: 0.9;
+}
+
+.glass {
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,0.2);
+}
+
+#questionsContainer {
+    background: rgba(255, 174, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ /*    backdrop-filter: blur( 4px ); */
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.registerHere {
+    text-shadow: .5px .5px 1px #000000;
+}
+
+
+#calendar {
+    background: rgba(255, 174, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ /*    backdrop-filter: blur( 4px ); */
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+button {
+    color: black;
+}
