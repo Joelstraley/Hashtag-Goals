@@ -4,15 +4,22 @@ const db = require("../models");
 const userMilestones = require("../models/userMilestones");
 
 module.exports = function(app) {
-  app.get(["/", "/signup"], function(req, res) {
+  app.get("/register", function(req, res) {
     if (req.user) {
       res.redirect("/login")
     }
     res.render("register"); 
   });
+/* 
+  app.get("/", function(req, res) {
+    if (req.user) {
+      res.redirect("/")
+    }
+    res.render("register"); 
+  }); */
  
 
-  app.get("/login", function(req, res) {;
+  app.get(["/", "/login"], function(req, res) {;
     if (req.user) {
       res.redirect("/goals/" + req.user.id);
     }

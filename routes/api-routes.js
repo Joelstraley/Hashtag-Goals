@@ -101,7 +101,7 @@ module.exports = function (app) {
     }
   });
 
-  // Notetaker routes
+/*   // Notetaker routes
   app.get("/api/notes", function (req, res) {
     res.json(getJSON());
   });
@@ -118,11 +118,11 @@ module.exports = function (app) {
   app.delete("/api/notes/:id", function (req, res) {
     const notes = getJSON()
     const id = parseInt(req.params.id)
-  /*   console.log(id) */
+     console.log(id) 
     const filteredNotes = notes.filter(note => note.id !== id)
     console.log(filteredNotes)
     fs.writeFileSync("./db/db.json", JSON.stringify(filteredNotes), "UTF-8")
     res.sendStatus(200)
-  })
+  }) */
 };
 

@@ -5,8 +5,6 @@ body, html {
     background-repeat: repeat-y;
     background-color: #FEFCD5; 
     height: 100vh;
-
-
 }
 
 #goalsHeader {
@@ -25,19 +23,27 @@ p {
     text-align: center;
 }
 
-#alertDIV {
+/* #alertDIV {
     color: black;
     font-size: small;
     text-shadow: .5px .5px black;
-}
+} */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     color:  #f19e04;
-    text-shadow: 2px 1px black;
+    text-shadow: 2.5px 1px black;
     }
 
+.registerHere {
+    text-shadow: .5px .5px 1px #000000;
+}
+
+.loginTop {
+    padding: 100px;
+}
+    
 #email-input {
 opacity: 0.9;
 }
@@ -61,21 +67,35 @@ opacity: 0.9;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.registerHere {
-    text-shadow: .5px .5px 1px #000000;
-}
-
-
 #calendar {
-    background: rgba(255, 174, 0, 0.8);
+    background: rgba(255, 174, 0, 0.95);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
  /*    backdrop-filter: blur( 4px ); */
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-}
-
-button {
     color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
+
+
+.mainDIV {
+    padding-top: 100px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px ); 
+       -webkit-backdrop-filter: blur( 4px );
+       border-radius: 10px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+   }
+
+.button {
+    padding-top: 10px;
+}
+
+.alertText {
+    color: black;
+    font-size: small;
+    text-shadow: .25px .25px black;
+    background-color: cadetblue;
+}
+
