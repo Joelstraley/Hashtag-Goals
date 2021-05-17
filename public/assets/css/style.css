@@ -3,9 +3,9 @@ body, html {
     background-image: url("../goalsBackground-crop2.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: cover;
     background-color: #FEFCD5;
-    height: 100vh;
+  
 }
 
 #goalsHeader {
