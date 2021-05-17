@@ -1,10 +1,10 @@
-# Destination
-  Hashtag Goals! 
- 
-
+# Hashtag Goals! 
+  
 ## Description 
 
-A productivity app that helps simplify the process of setting goals and breaking them down into smaller chunks. 
+A productivity app that helps simplify the process of setting goals and breaking them down into smaller chunks. Create an account then tell us which goal you want to set and how many times a week you can devote to see a calendar auto-populated with your goal broken down to achievable milestones. 
+
+Original Repo: at <https://github.com/jacquelinerodney/project2>
 
 ## Table of Contents
 
@@ -58,8 +58,6 @@ Jacqueline Rodney: <https://github.com/jacquelinerodney/>
 Joel Straley: <https://github.com/Joelstraley>
 Greg Scott: <https://github.com/gtscott90>
 Kofi Hayford: <https://github.com/kofihayford> 
-
-Original Repo: at <https://github.com/jacquelinerodney/project2>
 
 ## Demo 
 
