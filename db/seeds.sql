@@ -48,6 +48,3 @@ INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) 
 INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES ("Joel", "Joel@gmail.com", "123", CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES ("Greg", "Greg@gmail.com", "123", CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES ("Fred", "Fred@gmail.com", "321", CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
-
-
-

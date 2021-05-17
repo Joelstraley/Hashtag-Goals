@@ -1,8 +1,6 @@
-DROP DATABASE IF EXISTS goals_DB;
-CREATE database goals_DB;
+DROP DATABASE IF EXISTS ja9yetc803bwrx3t;
+CREATE database ja9yetc803bwrx3t;
 
-USE goals_DB;
-
-
+USE ja9yetc803bwrx3t;
 
 
