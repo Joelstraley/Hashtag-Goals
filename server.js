@@ -59,7 +59,7 @@ require("./routes/api-routes.js")(app);
 require("./routes/goals-routes")(app);
 
 
-db.sequelize.sync({force: true}).then(function() {
+db.sequelize.sync({force: false}).then(function() {
   app.listen(PORT, function() {
     console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
   });
