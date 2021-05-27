@@ -22,7 +22,8 @@ $(document).ready(function() {
         center: 'title',
         right: 'month,basicWeek,basicDay'
       },
-      defaultDate: moment(), 
+      defaultDate: $('#calendar').fullCalendar('today'), 
+      nowIndicator: true,
       navLinks: true, 
       editable: true,
       eventLimit: true, 

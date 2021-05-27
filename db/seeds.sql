@@ -9,7 +9,7 @@ INSERT INTO Goals (goalName, createdAt, updatedAt) VALUES ("Learn to Sing",  CUR
 INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Understand the Clefs and how they correspond to the Keys on the Piano", false,  1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Learn how to play the Major and Minor Scales", false,  1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Understand and learn how to play Chords", false,  1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
-INSERT INTO milestones (goalsmilestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Learn rhythm, note values, and meter", false,  1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Learn rhythm, note values, and meter", false,  1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Start playing songs", false,  1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 
 INSERT INTO milestones (milestoneName, completed, GoalId, createdAt, updatedAt) VALUES ("Studying vocabulary for greetings and daily routine", false,  2, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

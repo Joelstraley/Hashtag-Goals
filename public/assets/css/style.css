@@ -3,20 +3,22 @@ body, html {
     background-image: url("../goalsBackground-crop2.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: cover;
-    background-color: #FEFCD5;
+    background-repeat: no-repeat;
+    background-color: #8897AA;
   
 }
 
 #goalsHeader {
     margin-top: -10px;
     font-weight: bold;
-    font-family:  'lobster', cursive;
+    font-family:  cursive;
     color: #f19e04;
     text-shadow: -1px 0 black, 0 2px black, 1px 0 black, -1px 0px black;
     text-align: center;
+
     text-decoration-style: solid;
     padding-top: 20px;
+    padding-bottom: 5px;
 }
     
 p {
@@ -32,15 +34,16 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color: rgba(245, 239, 239, 0.945);
+    color: #f19e04;
     text-shadow: -1px 0 black, 0 2px black, 1px 0 black, -1px 0px black;
     align-items: center;
+    text-decoration: none;
     }
 
 .registerHere {
     /* text-shadow: -1px 0 black, 0 2px black, 1px 0 black, -1px 0px black; */
     color: rgba(245, 239, 239, 0.945);
-    text-decoration: underline;
+    text-decoration: none;
     font-family: 'Lobster', cursive;
 }
 
