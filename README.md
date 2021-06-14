@@ -8,20 +8,14 @@ Original Repo: at <https://github.com/jacquelinerodney/project2>
 
 ## Table of Contents
 
-
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
-## Installation 
-
-Clone the repo and run `npm install` to set up and initiate the required dependencies. 
 
 ## Usage 
 
-The app will be initiated by using `node index.js` command in the appropriate command terminal. 
 Once you open the app, put your registration information into the app which will take you to a screen with the option to select your Goals! 
 You will see the breakdown of each of the 5 different main goals.
 The five goals were: 
