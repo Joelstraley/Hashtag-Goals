@@ -19,7 +19,8 @@ Original Repo: at <https://github.com/jacquelinerodney/project2>
 
 Once you open the app, put your registration information into the app which will take you to a screen with the option to select your Goals! 
 You will see the breakdown of each of the 5 different main goals.
-The five goals were: 
+
+The five goals are: 
     1. Learn to play Piano
     2. Learn to Speak Spanish
     3. Learn to Bake Bread 
