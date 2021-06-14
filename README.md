@@ -9,6 +9,7 @@ Original Repo: at <https://github.com/jacquelinerodney/project2>
 ## Table of Contents
 
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -26,6 +27,11 @@ The five goals were:
     5. Learn to Sing
 
 Enjoy! 
+
+
+## Screenshot
+![alt text](https://github.com/Joelstraley/Hashtag-Goals/blob/master/public/assets/Hashtag-Goals-Screenshot.png?raw=true)
+
 
 ## License
 
