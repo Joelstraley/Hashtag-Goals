@@ -1,10 +1,11 @@
 body, html {
     font-family:'lobster', cursive;
-    background-image: url("../goalsBackground-crop2.jpg");
+/*     background-image: url("../goalsBackground-crop2.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #8897AA;
+    /* background-color: #8897AA; */
+    background-color: #2c3e50;
   
 }
 
