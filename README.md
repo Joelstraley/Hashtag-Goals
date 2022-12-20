@@ -8,23 +8,19 @@ Original Repo: at <https://github.com/jacquelinerodney/project2>
 
 ## Table of Contents
 
-
-- [Installation](#installation)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
-## Installation 
-
-Clone the repo and run `npm install` to set up and initiate the required dependencies. 
 
 ## Usage 
 
-The app will be initiated by using `node index.js` command in the appropriate command terminal. 
 Once you open the app, put your registration information into the app which will take you to a screen with the option to select your Goals! 
 You will see the breakdown of each of the 5 different main goals.
-The five goals were: 
+
+The five goals are: 
     1. Learn to play Piano
     2. Learn to Speak Spanish
     3. Learn to Bake Bread 
@@ -32,6 +28,11 @@ The five goals were:
     5. Learn to Sing
 
 Enjoy! 
+
+
+## Screenshot
+![alt text](https://github.com/Joelstraley/Hashtag-Goals/blob/master/public/assets/Hashtag-Goals-Screenshot.png?raw=true)
+
 
 ## License
 
